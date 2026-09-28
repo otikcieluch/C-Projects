@@ -1,4 +1,4 @@
-Itroducing the Bradar File Search or watisdisbradar inspired by you know who.
+Itroducing the Bradar File Info or watisdisbradar inspired by you know who.
 Written in C works only on Linux.
 -----------------------------------------------------------------------------
 **Compile:** ```gcc watisdisbradar.c -o watisdisbradar``` \
