@@ -1,6 +1,0 @@
-Itroducing the Bradar File Search or watisdisbradar inspired by you know who.
-Written in C works only on Linux.
------------------------------------------------------------------------------
-Compile: gcc watisdisbradar.c -o watisdisbradar
-Make it function as a standalone command (system-wide): sudo install -m 755 watisdisbradar /usr/local/bin/
-Combined: gcc watisdisbradar.c -o watisdisbradar && sudo install -m 755 watisdisbradar /usr/local/bin/
