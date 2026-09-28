@@ -12,7 +12,7 @@ int main(int argc,char *argv[]) {
 		fprintf(stderr, "pak you %s\n",argv[1]);
 		return 1;
 	}
-	//Format
+	//Format & execution
 	execlp("stat", "stat","--printf",
 		   "File:     %n\n"
 		   "Type:     %F\n"
@@ -21,9 +21,7 @@ int main(int argc,char *argv[]) {
 		   "Owner:    %U:%G\n"
 		   "Modified: %y\n",
 		   "--", argv[1], (char *)NULL);
-    //execution
-	snprintf(cmd,sizeof(cmd),"stat %s",argv[1]);
-	system(cmd);
+    
 
 	return 0;
 }
