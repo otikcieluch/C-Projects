@@ -7,10 +7,12 @@ int main(int argc,char *argv[]) {
 
 	char cmd[200];
 	struct stat st;
+	//error handling
 	if(stat(argv[1], &st) != 0) {
 		fprintf(stderr, "pak you %s\n",argv[1]);
 		return 1;
 	}
+	//Format
 	execlp("stat", "stat","--printf",
 		   "File:     %n\n"
 		   "Type:     %F\n"
@@ -19,7 +21,7 @@ int main(int argc,char *argv[]) {
 		   "Owner:    %U:%G\n"
 		   "Modified: %y\n",
 		   "--", argv[1], (char *)NULL);
-
+    //execution
 	snprintf(cmd,sizeof(cmd),"stat %s",argv[1]);
 	system(cmd);
 
