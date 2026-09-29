@@ -1,4 +1,7 @@
-Itroducing the Bradar File Info or bradarwatisdis inspired by Heyselcuk. \
+**NEWEST VERSION: 
+
+
+troducing the Bradar File Info or bradarwatisdis inspired by Heyselcuk. \
 Written in C works only on Linux.
 -----------------------------------------------------------------------------
 **Compile:** ```gcc bradarwatisdis.c -o bradarwatisdis``` \
