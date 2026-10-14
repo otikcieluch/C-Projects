@@ -1,3 +1,7 @@
+//THIS IS A PROTOTYPE GO TO THE BradarFI repo for the newest build
+//if you wish to use this version go ahead
+
+
 #include <stdlib.h>
 #include <sys/stat.h>
 #include <unistd.h>
